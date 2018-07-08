@@ -1,0 +1,35 @@
+.container{
+    background: pink;
+    opacity: 1;
+
+}
+.header{
+color: yellow;
+
+}
+p{
+text-align: center;
+font-size: 30px;
+color:navy;
+}
+.inner-container{
+    background: orange;
+    opacity: 1;
+    padding: 30px;
+    margin: 30px;
+}
+button{
+ height: 30px;
+ width:fit-content;
+ font-size: 16px;
+ background-color: orange;
+ color: navy;
+}
+.question{
+font-size:15px;
+text-align: left;
+margin: 20px;
+}
+ #restart,.results, #show-answer, #submit, .question, .answers{
+	display: none;
+}

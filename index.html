@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- a whole container containing everything -->
+    <div class="container">
+        <p>These Riddles will get you</p>
+        <!-- inner container -->
+        <section class="inner-container">
+            <div class="header">
+                <h1>
+                    <center>
+                        Trivia! Trivia! trivia!
+                    </center>
+                </h1>
+            </div>
+            <p>Rules</p>
+            <br> This game contains Five questions and you have to answer them in 50 seconds
+        </section>
+        <div class="start">
+            <p> Click Start to start the game</p>
+            <!-- Start button to start the game and the timer -->
+            <center>
+                <button id='start'>START</button>
+            </center>
+        </div>
+
+        <!-- timer will be displayed in this div -->
+        <div id='show_timer'></div>
+        <!-- Questions -->
+        <p class="question">1. A BOY AND A DOCTOR WENT FISHING. THE BOY WAS THE DOCTOR'S SON BUT THE DOCTOR WASN'T THE BOY'S FATHER. WHO IS THE
+            DOCTOR?
+        </p>
+        <!-- answers with radio buttons on them so that user can click one only -->
+        <ul class="answers">
+            <input type="radio" name="r1" id='a1'>Mother</input>
+            <br>
+            <input type="radio" name="r1" id='b1'>step-dad</input>
+            <br>
+            <input type="radio" name="r1" id='c1'>Uncle</input>
+            <br>
+            <input type="radio" name="r1" id='d1'>Grandfather</input>
+            <br>
+        </ul>
+        <p class="question">2. WHAT HAS FOUR FINGERS AND A THUMB, BUT IS NOT LIVING?
+        </p>
+        <br>
+        <ul class="answers">
+            <input type="radio"  name="r2" id='a2'>Plants</input>
+            <br>
+            <input type="radio"  name="r2" id='b2'>Lamp</input>
+            <br>
+            <input type="radio" name="r2" id='c2'>Feet</input>
+            <br>
+            <input type="radio" name="r2" id='d2'>Gloves</input>
+            <br>
+        </ul>
+        <p class="question">3. WHAT GETS WET WHEN DRYING?
+
+        </p>
+        <br>
+        <ul class="answers">
+            <input type="radio" name="r3" id='a3'>Onions</input>
+            <br>
+            <input type="radio" name="r3" id='b3'>Water</input>
+            <br>
+            <input type="radio" name="r3" id='c3'>Towel</input>
+            <br>
+            <input type="radio" name="r3" id='d3'>Sweat</input>
+            <br>
+        </ul>
+        <p class="question">4. WHAT COMES ONCE IN A MINUTE AND TWICE IN A MOMENT, BUT NEVER IN A THOUSAND YEARS?
+
+        </p>
+        <br>
+        <ul class="answers">
+            <input type="radio" name="r4" id="a4" >Time</input>
+            <br>
+            <input type="radio"  name="r4" id="b4">Letter-M</input>
+            <br>
+            <input type="radio"  name="r4" id="c4" >Nothing</input>
+            <br>
+            <input type="radio"  name="r4" id="d4">News</input>
+            <br>
+        </ul>
+        <br>
+        <p class="question">5. IF YOU HAVE ME, YOU WILL WANT TO SHARE ME. IF YOU SHARE ME, YOU WILL NO LONGER HAVE ME. WHAT AM I?
+
+        </p>
+        <br>
+        <ul class="answers">
+            <input type="radio"  name="r5" id="a5">Money</input>
+            <br>
+            <input type="radio" name="r5" id="b5" >Food</input>
+            <br>
+            <input type="radio" name="r5" id="c5">Secret</input>
+            <br>
+            <input type="radio" name="r5" id="d5" >Facebook-post</input>
+            <br>
+        </ul>
+        <center>
+            <button id="submit">Submit</button>
+        </center>
+        <center>
+            <button id="restart">Play Again</button>
+        </center>
+
+        <center>
+            <button id="show-answer">Show-answers</button>
+        </center>
+
+        <div class="results">Answers
+            <ol type='1'>
+                <li>Mother</li>
+                <li>Gloves</li>
+                <li>Towel</li>
+                <li>Letter-M</li>
+                <li>Secret</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <!-- link to the javascript and jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
